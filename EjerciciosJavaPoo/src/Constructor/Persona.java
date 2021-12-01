@@ -24,7 +24,7 @@ public class Persona {
 	}
 
 	public void mostrarDatos() {
-		System.out.println("El apellido es "+ apellidos);
+		System.out.println("El apellido es: "+ apellidos);
 		System.out.println("El nombre es "+ nombres);
 		System.out.println("El numero de cedula es "+ numCedula);
 		System.out.println("La edad es "+ edad);
