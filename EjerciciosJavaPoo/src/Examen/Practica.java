@@ -43,6 +43,7 @@ do {
 	op = sc.nextInt();
 	 switch(op) {
 	case 1:
+		int parA = 0, parB = 0;
 		 System.out.println("Suma");
 		 double suma[] = new double[v.length];
 		 double total = 0;
@@ -54,6 +55,18 @@ do {
 		 	 }
 		 	BigDecimal resultado= new BigDecimal(total).setScale(2, RoundingMode.HALF_UP);
 		 	 System.out.println("total = " + resultado);
+		 	for (int y = 0 ; y < v.length ; y ++){
+	            if (v[y] % 2 == 0){
+	            	parA++;
+	                System.out.println(" Los numeros pares del vector A son [] "+ v[y]);
+	            }
+	            System.out.println();
+	            if (z[y] % 2 == 0){
+	            	parB++;
+	                System.out.println(" Los numeros pares del vector B son [] "+ z[y]);
+	            }
+	            }
+
 
 		break;
 	case 2:
