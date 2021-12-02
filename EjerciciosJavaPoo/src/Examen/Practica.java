@@ -55,17 +55,22 @@ do {
 		 	 }
 		 	BigDecimal resultado= new BigDecimal(total).setScale(2, RoundingMode.HALF_UP);
 		 	 System.out.println("total = " + resultado);
+		 	   System.out.println(" Los numeros pares del vector A son ");
 		 	for (int y = 0 ; y < v.length ; y ++){
 	            if (v[y] % 2 == 0){
 	            	parA++;
-	                System.out.println(" Los numeros pares del vector A son [] "+ v[y]);
-	            }
-	            System.out.println();
-	            if (z[y] % 2 == 0){
-	            	parB++;
-	                System.out.println(" Los numeros pares del vector B son [] "+ z[y]);
+
+	                System.out.print("["+ v[y] + "]");
 	            }
 	            }
+		 		System.out.println();
+		 		System.out.println(" Los numeros pares del vector B son ");
+		 	for (int y = 0 ; y < v.length ; y ++){
+		 	if (z[y] % 2 == 0){
+            	parB++;
+
+                System.out.print("["+ z[y] + "]");
+            }}
 
 
 		break;
