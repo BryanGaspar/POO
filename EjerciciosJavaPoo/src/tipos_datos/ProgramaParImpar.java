@@ -12,7 +12,7 @@ public class ProgramaParImpar {
         int n1;
         System.out.print("Introduzca número: ");
         n1 = sc.nextInt();
-        System.out.println(n1 % 2 == 0 ?  "Par" : "Impar");
+        System.out.println(n1 % 2 == 0 ?  "Es Par" : "Impar");
 
 	}
 
